@@ -20,10 +20,11 @@ namespace RobotsVsDinosaurs
         }
 
         // Build a Battle method that makes the robots in the fleets robots list attack the dinos in the herds dinos list until on of the teams completely die
-        public void RubBattle();
 
-
-
-
+        public void RunBattle()
+        //Dinosaurs and Robots attacks need to reduce the health of the other calling the attack methods in their classes
+        {
+            Dinosaur.dinosaurs[0].Attack() = Fleet.[0];
+        }
     }
 }
