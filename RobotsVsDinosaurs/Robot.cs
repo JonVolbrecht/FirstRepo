@@ -21,7 +21,7 @@ namespace RobotsVsDinosaurs
             this.nameUnit = nameUnit;
             this.durability = durability;
             this.powerLevel = powerLevel;
-            this.weapon = weapon; //Figure out weapons
+            this.weapon = Weapon(); //Figure out weapons
 
             
         }

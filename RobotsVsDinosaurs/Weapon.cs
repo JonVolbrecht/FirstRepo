@@ -10,14 +10,17 @@ namespace RobotsVsDinosaurs
     {
         //Variables
 
-        public string type;
+        public string name;
         public string weapon;
 
         Random randomNumber;
-        public Weapon(string type)
+        public Weapon(string name)
         {
-            this.type = type;
-            List<Weapon> weapon = new List<weapon>("Pile Driver", "Laser Cutter", "Impact Sledge");
+            this.name = name;
+            
+            List<Weapon> weapon = new List<string>();
+            weapon.Add("Pile Driver");
+            weapon.Add("Laser Cutter");
 
 
         }
