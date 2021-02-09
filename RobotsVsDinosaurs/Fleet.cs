@@ -8,8 +8,8 @@ namespace RobotsVsDinosaurs
 {
     public class Fleet
     {
-        
 
+        Fleet fleet = new Fleet();
 
     }
     

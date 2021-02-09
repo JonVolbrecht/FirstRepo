@@ -28,7 +28,8 @@ namespace RobotsVsDinosaurs
         //Methods
         public void Engage(Dinosaur dinosaur) // what parameter should I pass in here?
         {
-            
+            dinosaur.health = dinosaur.health - weapon.attackPower;
+
         }
 
 

@@ -27,7 +27,7 @@ namespace RobotsVsDinosaurs
         //Methods
         public void Attack(Robot robot) // what parameter should I pass in here?
         {
-
+            robot.durability = robot.durability - attackPow;
         }
     }
 
