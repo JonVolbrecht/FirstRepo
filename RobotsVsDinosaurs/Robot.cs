@@ -12,24 +12,21 @@ namespace RobotsVsDinosaurs
         public string nameUnit;
         public int durability;
         public int powerLevel;
+        public Weapon weapon; // WHO AMI !?!?!?!
 
-        public Weapon weapon;
-
-        Random randomNumber;
-        public Robot(string nameUnit, int durability, int powerLevel, string weapon)
+        public Robot(string nameUnit, int durability, int powerLevel)
         {
             this.nameUnit = nameUnit;
             this.durability = durability;
             this.powerLevel = powerLevel;
-            this.weapon = Weapon(); //Figure out weapons
-
+            this.weapon = new Weapon("Laser Cutter", 10);
             
         }
 
         
 
         //Methods
-        public void Engage()
+        public void Engage(Dinosaur dinosaur) // what parameter should I pass in here?
         {
             
         }

@@ -6,34 +6,19 @@ using System.Threading.Tasks;
 
 namespace RobotsVsDinosaurs
 {
-    class Weapon
+    public class Weapon
     {
         //Variables
 
         public string name;
-        public string weapon;
+        public int attackPower;
 
-        Random randomNumber;
-        public Weapon(string name)
+        public Weapon(string name, int attackPower)
         {
             this.name = name;
+            this.attackPower = attackPower;
             
-            List<Weapon> weapon = new List<string>();
-            weapon.Add("Pile Driver");
-            weapon.Add("Laser Cutter");
-
-
         }
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace RobotsVsDinosaurs
 {
-    class Fleet
+    public class Fleet
     {
-        List<Fleet> Robots = new List<Fleet>()
+        
+
+
     }
+    
+
 }

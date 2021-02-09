@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RobotsVsDinosaurs
 {
-    class Dinosaur
+    public class Dinosaur
     {
         //Member Variables
         public string type;
@@ -25,7 +25,7 @@ namespace RobotsVsDinosaurs
         }
 
         //Methods
-        public void Attack()
+        public void Attack(Robot robot) // what parameter should I pass in here?
         {
 
         }

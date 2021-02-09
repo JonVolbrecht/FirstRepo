@@ -8,6 +8,11 @@ namespace RobotsVsDinosaurs
 {
     class Herd
     {
-        //Lists
+        
+
+            
     }
 }
+
+    
+
